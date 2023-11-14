@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase SSO google</title>
+</head>
+<body>
+<div id="app">
+  <button id="google-sign-in">Sign in with Google</button>
+  <button id="google-log-out" onclick="logout()">Logout</button>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+<script >
+  // TODO remplacer par la configuration de votre projet firebase
+  const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  // Firebase Authentication
+  const auth = firebase.auth();
+
+  const signInButton = document.getElementById('google-sign-in');
+  const logoutButton = document.getElementById('google-log-out');
+
+  // Implement the Google sign-in button.
+  const googleSignInButton = document.getElementById("google-sign-in");
+  googleSignInButton.addEventListener("click", async () => {
+    // TODO ajouter la partie pour se connecter par google
+  });
+
+  // Listen for the sign-in state change event.
+  auth.onAuthStateChanged(async (user) => {
+    if (user) {
+      // The user is signed in.
+      console.log("The user is signed in.");
+      signInButton.style.display = 'none';
+      logoutButton.style.display = 'block';
+    } else {
+      // The user is signed out.
+      console.log("The user is signed out.");
+      signInButton.style.display = 'block';
+      logoutButton.style.display = 'none';
+    }
+  });
+
+  // Logout Function
+  function logout() {
+    auth.signOut()
+      .then(() => {
+        console.log('User logged out successfully!');
+      })
+      .catch(error => {
+        console.error(error.message);
+      });
+  }
+</script>
+
+
+
+</body>
+</html>
