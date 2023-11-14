@@ -2,7 +2,7 @@
 
 # Diapositives
 
-Vous pouvez voir les diapositives [here]().
+Vous pouvez voir les diapositives [here](https://tgenez.github.io/firebase-discover/#/).
 
 ## Develop
 
