@@ -15,8 +15,8 @@ Lorsqu'un utilisateur non authentifié effectue une requête, la variable reques
 Plusieurs manières d'utiliser l'authentification:
 
 * **Public** : ignorer request.auth
-* **Privé authentifié** : vérifiez que request.auth n'est pas null
-* **Utilisateur privé** : vérifiez que request.auth.uid est égal à un uid de chemin
+* **Privé authentifié** : vérifier que request.auth n'est pas null
+* **Utilisateur privé** : vérifier que request.auth.uid est égal à un uid de chemin
 
 Notes:
 
@@ -66,7 +66,7 @@ service firebase.storage {
 
 <br>
 
-1. Rajouter l'auth configuration
+1. Rajouter la configuration de l’authentification
 2. Autoriser qu'un utilisateur authentifié de pouvoir changer la photo du chat
 
 

@@ -1,33 +1,31 @@
-# Lab 1
+# Lab 1 solution
 
-Le but est d'héberge le blog qui est un simple index.html
+Le but est d'héberger l'index.html fournit par firebase lors de l'init.
 
-il faut se connecter à firebase
+Il faut se connecter à firebase console dans votre projet que vous avez créé.
 
+Dans le dossier, faites en commande pour vous connecter avec votre compte
 ```
 firebase login
 ```
 
-Lancez votre projet
 Exécutez la commande suivante à partir du répertoire racine de votre application :
 ```
-firebase init
+firebase init hosting
 ```
 
-Il faut choissir pour cette atelier hosting avec l'options hosting: configure files for firebase hosting.
+Il faut choisir pour cette atelier hosting.
 
-Il faut ensuite choisir "use an existing project"et  choisir le projet que vous venez de créer avec la console 
+Il faut ensuite choisir votre projet.
 
-Vous pouvez laisser les choix par défaut comme folder public
-
-Répondre y à la question configure as a single-page app.
-
-On peut répondre N à la question "Set up automatic builds and deploy with GitHub"
-
-Après vous pouvez faire:
+Vous pouvez laisser les choix par défaut comme folder public.
 
 ```
 firebase deploy --only hosting
 ```
 
-Vous pouvez ensuite si tout est passé, suivre le lien donné dans la console pour voir votre page index.html en ligne
+Vous pouvez ensuite suivre le lien et voir l'index.html d'exemple de firebase qui est hébergé.
+
+Vous pouvez ensuite changer le fichier index.html et relancer le deploy pour voir qu'il se met bien à jour.
+
+Vous pouvez aussi regarder dans la console firebase hosting les informations.

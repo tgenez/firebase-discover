@@ -1,4 +1,4 @@
-# Lab 2
+# Lab 2: solution
 
 Il faut ajouter votre image par la console firebase.
 
@@ -8,7 +8,7 @@ Une fois finit de charger, vous la voyez dans la console, vous voyez votre image
 https://firebasestorage.googleapis.com/v0/b/nobs-f32f2.appspot.com/o/profile%2F1s_by_wlop-dc1sdan.jpg?alt=media
 ```
 
-Il faut changer la règle d'access pour autoriser la lecture access en public
+Il faut changer la règle d’accès pour autoriser la lecture accès en public
 
 ```
 service firebase.storage {
