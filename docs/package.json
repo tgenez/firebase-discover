@@ -1,7 +1,7 @@
 {
-  "name": "school-firebase",
+  "name": "firebase-discover",
   "version": "1.0.0",
-  "description": "Sfeir School Firebase",
+  "description": "Firebase discover",
   "scripts": {
     "sass": "sass ./scss/slides.scss:./css/slides.css --source-map --watch",
     "sass-once": "sass ./scss/slides.scss:./css/slides.css --source-map",
