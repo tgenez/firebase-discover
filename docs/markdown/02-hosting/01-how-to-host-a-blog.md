@@ -83,7 +83,7 @@ Notes:
 
 <br>
 
-### dossier: labs/01-blog
+### dossier: labs/01-hosting
 
 Notes:
 

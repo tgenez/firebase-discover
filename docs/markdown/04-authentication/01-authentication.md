@@ -1,12 +1,14 @@
 # Authentification
 
-Firebase Authentication est un service d'authentification qui permet aux utilisateurs de se connecter à vos applications mobiles et web. Il offre une variété de méthodes d'authentification, notamment :
+Authentification simple et sécurisée pour vos applications
 
 * Authentification par email/mot de passe 
 * Authentification par téléphone
 * Authentification par identifiant tiers
 
 Notes:
+Firebase Authentication est un service d'authentification qui permet aux utilisateurs de se connecter à vos applications mobiles et web. Il offre une variété de méthodes d'authentification, notamment :
+
 * Authentification par email/mot de passe : les utilisateurs s'identifient avec leur adresse e-mail et leur mot de passe.
 * Authentification par téléphone : les utilisateurs s'identifient avec leur numéro de téléphone et reçoivent un code de vérification par SMS.
 * Authentification par identifiant tiers : les utilisateurs s'identifient avec leur compte Google, Facebook, Twitter, GitHub, etc.
@@ -19,6 +21,7 @@ Notes:
 * Facile à mettre en place sur votre front js. 
 * Firebase va gérer toute la couche de sécurité pour vous.
 * Le stockage de mot de passe ne sera pas chez vous.
+* Gestion dans firebase
 
 ##==##
 

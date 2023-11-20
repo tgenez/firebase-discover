@@ -17,6 +17,12 @@ Notes:
 
 - Notifications push: Firebase offre un service de stockage en cloud pour stocker des fichiers, des images et des vidéos.
 - Analyses; Firebase offre un ensemble d'outils d'analyse pour suivre les performances des applications.
+Authentification : Firebase Authentication permet aux utilisateurs de se connecter à vos applications mobiles et web de manière sécurisée et flexible.
+Base de données : Firebase Realtime Database est une base de données NoSQL en temps réel qui permet de stocker et de synchroniser des données entre les appareils.
+Stockage : Firebase Storage permet de stocker des fichiers, tels que des images, des vidéos et des documents.
+Notifications : Firebase Cloud Messaging permet d'envoyer des notifications push aux utilisateurs de vos applications.
+Analytics : Firebase Analytics permet de collecter et d'analyser des données sur l'utilisation de vos applications.
+
 
 <!-- .slide: class="with-code consolas" -->
 
