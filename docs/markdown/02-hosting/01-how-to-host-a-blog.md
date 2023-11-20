@@ -73,7 +73,7 @@ Notes:
 ##==##
 <!-- .slide: class="exercice" -->
 
-# Exercice 1: hébergé une page
+# Exercice 1: héberger une page
 
 ## Lab 1
 
