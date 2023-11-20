@@ -92,6 +92,11 @@ auth.createUserWithEmailAndPassword(auth, email, password)
   });
 ```
 
+Notes:
+
+Parler attention même si pas de page register, quelqu'un pourrait faire en js créer un compte
+Peuvent être delete par cloud function
+
 ##==##
 
 <!-- .slide: class="with-code consolas" -->

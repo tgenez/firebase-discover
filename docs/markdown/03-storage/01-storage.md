@@ -1,6 +1,4 @@
-# Stockage
-
-Fonctionnalités:
+# Stockage: Fonctionnalités
 
 * Stockage de fichiers comme des images, des vidéos, etc.
 * Partage de fichiers avec d'autres utilisateurs ou groupes.
@@ -18,7 +16,7 @@ Cela offre une interface simple et intuitive pour charger, télécharger, gérer
 
 ##==##
 
-# Storage: Créer un bucket Cloud Storage par défaut
+# Storage: Créer un bucket Cloud Storage
 
 1. Dans la console Firebase, sélectionnez Stockage.
 2. Cliquez sur Commencer .

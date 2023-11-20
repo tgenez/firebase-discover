@@ -2,6 +2,8 @@
 
 Les règles de stockages s'intègrent avec l'authenficiation par Firebase
 
+![w-1000 center](./assets/images/schema_stockage_auth.png)
+
 Notes:
 Les règles de sécurité Firebase pour Cloud Storage s'intègrent à Firebase Authentication pour fournir une puissante authentification basée sur l'utilisateur sur Cloud Storage. Cela permet un contrôle d'accès granulaire basé sur les revendications d'un jeton d'authentification Firebase.
 Lorsqu'un utilisateur authentifié effectue une requête sur Cloud Storage, la variable request.auth est renseignée avec l' uid de l'utilisateur ( request.auth.uid ) ainsi que les revendications du JWT d'authentification Firebase ( request.auth.token ).
