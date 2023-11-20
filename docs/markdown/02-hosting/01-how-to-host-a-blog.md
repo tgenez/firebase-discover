@@ -1,6 +1,6 @@
 # Hébergement: Que pouvez-vous héberger ?
 
-* Vos applications Web d'une seule page
+* Vos applications Web d'une seule page ou multiple pages
 * Vos ressources statiques et dynamiques
 
 [documentation hébergement](https://firebase.google.com/docs/hosting?authuser=0&hl=en)
