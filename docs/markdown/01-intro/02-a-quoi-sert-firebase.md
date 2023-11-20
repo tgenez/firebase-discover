@@ -26,7 +26,7 @@ Notes:
 
 Mettre en place des projets sans coût et sans gestion d'infrastructure
 
-Exemples d'utilisation de Firebase :
+Exemples d'utilisations :
 
 * Une application de jeux pour gérer les scores.
 * Une application de médias sociaux authentification et envoie de notification.

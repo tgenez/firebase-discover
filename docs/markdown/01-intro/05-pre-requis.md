@@ -2,7 +2,7 @@
 
 # Pre-requis pour développer en local
 
-Pour l'exemple de blog, nous allons utiliser nodejs
+Pour les labs, nous avons besoin d'avoir nodejs
 ```
 https://nodejs.org/en
 ```

@@ -44,6 +44,14 @@ Montrer dans la console
 
 # Hébergement: comment faire ?
 
+S'authentifier avec son compte google
+
+```sh
+firebase login
+```
+
+<br>
+
 Initialisation du projet firebase avec service hosting dans un dossier
 
 ```sh

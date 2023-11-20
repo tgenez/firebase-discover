@@ -3,7 +3,7 @@
 * Plateforme de développement d'applications mobiles et web. 
 * Sans gestion de l'infrastructure backend.
 * Permet de découvrir GCP sans coût
-* Offre une gamme de serfices différent
+* Offre une gamme de services différents
 
 [site de firebase](https://firebase.google.com/)
 
