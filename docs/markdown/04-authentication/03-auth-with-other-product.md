@@ -60,6 +60,24 @@ service firebase.storage {
 ```
 
 ##==##
+
+# Authentification avec stockage: intégration javascript
+
+Ajouter dans les scripts la libraire
+
+```html
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+```
+
+Utilisation sur l'objet firebase de storage
+```js
+  const storage = firebase.storage();
+```
+
+[firebase documentation](https://firebase.google.com/docs/storage/web/upload-files)
+<!-- .element: class="credits" -->
+
+##==##
 <!-- .slide: class="exercice" -->
 
 # Exercice 5: rajouter l'auth avec le stockage
