@@ -44,10 +44,24 @@ function auth() {
   ];
 }
 
+function database() {
+  return [
+    '05-database/00-transition.md',
+    '05-database/01-database.md'
+  ];
+}
+
+function cloudFunction() {
+  return [
+    '06-cloud-function/00-transition.md',
+    '06-cloud-function/01-cloud-function.md'
+  ];
+}
+
 function conclusion() {
   return [
-    '05-conclusion/00-transition.md',
-    '05-conclusion/01-feedback.md'
+    '07-conclusion/00-transition.md',
+    '07-conclusion/01-feedback.md'
   ];
 }
 
@@ -59,6 +73,8 @@ function formation() {
     ...hosting(),
     ...storage(),
     ...auth(),
+    ...database(),
+    ...cloudFunction(),
     ...conclusion()
   ].map((slidePath) => {
     return { path: slidePath };
