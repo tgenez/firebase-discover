@@ -63,6 +63,7 @@ service firebase.storage {
 <!-- .element: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code consolas" -->
 
 # Authentification avec stockage: intégration javascript
 
