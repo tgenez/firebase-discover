@@ -51,29 +51,22 @@ Montrer dans la console
 # Hébergement: comment faire ?
 
 1. S'authentifier avec son compte google
-
 ```shell
 firebase login
 ```
 <!-- .element: class="big-code" -->
-
 <br>
-
 2. Initialisation du projet firebase avec service hosting dans un dossier
-
 ```shell
 firebase init hosting
 ```
 <!-- .element: class="big-code" -->
-
 <br>
-
-3. On peut lancer une commande pour le deployement
+3. Lancer une commande pour le deployement
 ```shell
 firebase deploy --only hosting
 ```
-<!-- .element: class="big-code" -->
-
+<!-- .element: class="big-code list-fragment" -->
 
 Notes:
 * Sélectionnez un projet Firebase pour vous connecter à votre répertoire de projet local.

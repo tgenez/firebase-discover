@@ -8,7 +8,7 @@
 
 ## Théo Genez
 
-### Architect/devOps GCP
+### Architect/DevOps GCP
 
 <!-- .element: class="icon-rule icon-first" -->
 

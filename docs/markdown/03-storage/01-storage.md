@@ -2,7 +2,7 @@
 
 * Stockage de fichiers comme des images, des vidéos, etc.
 * Partage de fichiers avec d'autres utilisateurs ou groupes.
-* Contrôle d'accès basé sur les rôles pour protéger vos fichiers.
+* Contrôle d'accès basé sur des règles pour protéger vos fichiers.
 * Reporting et analyse des données de stockage.
 * Gestion par la console
 <!-- .element: class="list-fragment" -->
