@@ -22,7 +22,6 @@ Cela offre une interface simple et intuitive pour charger, télécharger, gérer
 1. Dans la console Firebase, sélectionnez Stockage.
 2. Cliquez sur Commencer .
 3. Sélectionnez un emplacement pour votre bucket Cloud Storage par défaut.
-<!-- .element: class="list-fragment" -->
 
 Notes:
 montrer comment faire sur le projet crée
