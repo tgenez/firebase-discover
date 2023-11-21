@@ -2,6 +2,7 @@
 
 * Vos applications Web d'une seule page ou multiple pages
 * Vos ressources statiques et dynamiques
+<!-- .element: class="list-fragment" -->
 
 [documentation hébergement](https://firebase.google.com/docs/hosting?authuser=0&hl=en)
 
@@ -13,13 +14,16 @@ Firebase Hosting fournit un hébergement rapide et sécurisé pour votre applica
 
 ##==##
 
+<!-- .slide: class="with-code consolas" -->
 # Hébergement: domaines
 
 Par défaut, Firebase va héberger sur les domaines:
-```
+
+```shell
 NAME_PROJECT.web.app
 NAME_PROJECT.firebaseapp.com
 ```
+<!-- .element: class="big-code" -->
 
 Firebase va fournir un certifcat SSL pour chacun des domaines.
 
@@ -42,28 +46,34 @@ Montrer dans la console
 
 ##==##
 
+<!-- .slide: class="with-code consolas" -->
+
 # Hébergement: comment faire ?
 
-S'authentifier avec son compte google
+1. S'authentifier avec son compte google
 
-```sh
+```shell
 firebase login
 ```
+<!-- .element: class="big-code" -->
 
 <br>
 
-Initialisation du projet firebase avec service hosting dans un dossier
+2. Initialisation du projet firebase avec service hosting dans un dossier
 
-```sh
+```shell
 firebase init hosting
 ```
+<!-- .element: class="big-code" -->
 
 <br>
 
-On peut lancer une commande pour le deployement
-```sh
+3. On peut lancer une commande pour le deployement
+```shell
 firebase deploy --only hosting
 ```
+<!-- .element: class="big-code" -->
+
 
 Notes:
 * Sélectionnez un projet Firebase pour vous connecter à votre répertoire de projet local.

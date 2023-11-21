@@ -12,6 +12,7 @@ Firebase propose une large gamme de services, notamment :
 * <b>Cloud function</b> 
 * <b>Notifications push</b> 
 * <b>Analyses</b> 
+<!-- .element: class="list-fragment" -->
 
 Notes:
 
@@ -37,6 +38,7 @@ Exemples d'utilisations :
 * Une application de jeux pour gérer les scores.
 * Une application de médias sociaux authentification et envoie de notification.
 * Une application de commerce électronique stockage des produits et des commandes.
+<!-- .element: class="list-fragment" -->
 
 Notes:
 Avec tous les services qu'on a vu, a quoi peut bien servir firebase ?

@@ -5,6 +5,7 @@ Authentification simple et sécurisée pour vos applications
 * Authentification par email/mot de passe 
 * Authentification par téléphone
 * Authentification par identifiant tiers
+<!-- .element: class="list-fragment" -->
 
 Notes:
 Firebase Authentication est un service d'authentification qui permet aux utilisateurs de se connecter à vos applications mobiles et web. Il offre une variété de méthodes d'authentification, notamment :
@@ -22,6 +23,7 @@ Firebase Authentication est un service d'authentification qui permet aux utilisa
 * Firebase va gérer toute la couche de sécurité pour vous.
 * Le stockage de mot de passe ne sera pas chez vous.
 * Gestion dans firebase
+<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -33,6 +35,7 @@ La console firebase permet de gérer vos utilisateurs sans avoir à devellopper 
 * Ajouter des nouvelles méthode de sign-in 
 * Changer les templates d'email fournit par google
 * Avoir accès au statistique d'utilisateur de l'authentification
+<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -41,9 +44,7 @@ La console firebase permet de gérer vos utilisateurs sans avoir à devellopper 
 Pour utiliser l'authentification dans un projet, il faut créer une application web dans la console firebase
 ![w-1000 center](./assets/images/ajouter_application.png)
 
-1. Choissir web
-2. Renter un nom
-3. Prenez en note la partie ajouter le SDK firebase, vous en aurez besoin
+Prenez en note la partie ajouter le SDK firebase, vous en aurez besoin
 
 ##==##
 <!-- .slide: class="with-code consolas" -->
@@ -94,6 +95,7 @@ auth.createUserWithEmailAndPassword(auth, email, password)
     // erreur à gérer comme email déjà register ou autre
   });
 ```
+<!-- .element: class="big-code" -->
 
 Notes:
 
@@ -118,12 +120,11 @@ auth.signInWithEmailAndPassword(auth, email, password)
     // connection échouée, peut gérer les cas comme mauvais email/mdp
   });
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
-
-# Authentification: logout
-
 <!-- .slide: class="with-code consolas" -->
+# Authentification: logout
 
 Méthode pour déconnecter un utilisateur
 
@@ -136,6 +137,7 @@ auth.signOut()
     console.error(error.message);
   });
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 <!-- .slide: class="with-code consolas" -->
@@ -149,13 +151,12 @@ auth.onAuthStateChanged(auth, (user) => {
   if (user) {
     // Utilisateur est connecté
     const uid = user.uid;
-    // ...
   } else {
     // Utilisateur n'est pas connecté
-    // ...
   }
 });
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 

@@ -19,6 +19,7 @@ Plusieurs manières d'utiliser l'authentification:
 * **Public** : ignorer request.auth
 * **Privé authentifié** : vérifier que request.auth n'est pas null
 * **Utilisateur privé** : vérifier que request.auth.uid est égal à un uid de chemin
+<!-- .element: class="list-fragment" -->
 
 Notes:
 
@@ -41,6 +42,7 @@ service firebase.storage {
   }
 }
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 <!-- .slide: class="with-code consolas" -->
@@ -58,6 +60,7 @@ service firebase.storage {
   }
 }
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 
@@ -73,6 +76,7 @@ Utilisation sur l'objet firebase de storage
 ```js
   const storage = firebase.storage();
 ```
+<!-- .element: class="big-code" -->
 
 [firebase documentation](https://firebase.google.com/docs/storage/web/upload-files)
 <!-- .element: class="credits" -->

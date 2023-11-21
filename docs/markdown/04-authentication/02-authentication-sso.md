@@ -27,21 +27,16 @@ Il suffit dans la console authentification d'activer sur le projet le fournisseu
 
 Activer le fournisseur dans la console
 
-Ajouter dans les scripts la libraire
-
-```html
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
-```
-
 Ajout du provider comme google avec une méthode d'authentification
 ```js
-    const provider = new firebase.auth.GoogleAuthProvider();
-    await auth.signInWithPopup(provider).then((result) => {
-      console.log(result);
-    }).catch((error) => {
-      console.log(error);
-    });
+const provider = new firebase.auth.GoogleAuthProvider();
+await auth.signInWithPopup(provider).then((result) => {
+  console.log(result);
+}).catch((error) => {
+  console.log(error);
+});
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 

@@ -5,6 +5,7 @@
 * Contrôle d'accès basé sur les rôles pour protéger vos fichiers.
 * Reporting et analyse des données de stockage.
 * Gestion par la console
+<!-- .element: class="list-fragment" -->
 
 [documentation stocakge](https://firebase.google.com/docs/storage?hl=en)
 <!-- .element: class="credits" -->
@@ -21,6 +22,7 @@ Cela offre une interface simple et intuitive pour charger, télécharger, gérer
 1. Dans la console Firebase, sélectionnez Stockage.
 2. Cliquez sur Commencer .
 3. Sélectionnez un emplacement pour votre bucket Cloud Storage par défaut.
+<!-- .element: class="list-fragment" -->
 
 Notes:
 montrer comment faire sur le projet crée
@@ -29,10 +31,10 @@ montrer comment faire sur le projet crée
 
 # Stockage: règle de securité
 
-* Des règles d'accès au stockage permettent de contrôler qui peut accéder à vos fichiers.
+* Elles permettent de contrôler qui peut accéder à vos fichiers.
 * Elles sont écrites en langage JavaScript 
 * Elles sont appliquées à chaque requête d'accès à un fichier.
-
+<!-- .element: class="list-fragment" -->
 
 Notes:
 
@@ -51,6 +53,7 @@ Les règles d'accès au stockage sont composées de deux parties :
 
 * **Les règles d'autorisation** définissent qui peut accéder à un fichier
 * **Les règles d'opération** définissent ce que les utilisateurs sont autorisés à faire avec un fichier.
+<!-- .element: class="list-fragment" -->
 
 ##==##
 
@@ -70,6 +73,7 @@ service firebase.storage {
   }
 }
 ```
+<!-- .element: class="big-code" -->
 
 ##==##
 
