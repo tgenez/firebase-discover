@@ -83,7 +83,7 @@ const auth = firebase.auth();
 
 # Authentification: register
 
-Méthode pour créer un nouveau utilisatuer dans firebase auth
+Méthode pour créer un nouveau utilisateur dans firebase auth
 
 ```js
 auth.createUserWithEmailAndPassword(auth, email, password)
