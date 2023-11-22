@@ -19,7 +19,7 @@ Firebase Authentication est un service d'authentification qui permet aux utilisa
 
 # Authentification: avantage
 
-* Facile à mettre en place sur votre front js
+* Facile à mettre en place sur votre front js ou mobile
 * Firebase va gérer toute la couche de sécurité pour vous
 * Le stockage de mot de passe ne sera pas chez vous
 * Gestion dans firebase.
