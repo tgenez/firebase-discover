@@ -86,7 +86,7 @@ const auth = firebase.auth();
 Méthode pour créer un nouveau utilisateur dans firebase auth
 
 ```js
-auth.createUserWithEmailAndPassword(auth, email, password)
+auth.createUserWithEmailAndPassword(email, password)
   .then((userCredential) => {
     // register est bon
     const user = userCredential.user;
@@ -111,7 +111,7 @@ Peuvent être delete par cloud function
 Méthode pour se connecter avec un utilisateur
 
 ```js
-auth.signInWithEmailAndPassword(auth, email, password)
+auth.signInWithEmailAndPassword(email, password)
   .then((userCredential) => {
     // connecté
     const user = userCredential.user;
@@ -147,7 +147,7 @@ auth.signOut()
 Méthode pour suivre les changements d'état sur l'authentification
 
 ```js
-auth.onAuthStateChanged(auth, (user) => {
+auth.onAuthStateChanged(user => {
   if (user) {
     // Utilisateur est connecté
     const uid = user.uid;
