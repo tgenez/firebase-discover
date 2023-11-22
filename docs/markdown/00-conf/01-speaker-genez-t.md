@@ -3,7 +3,8 @@
 # Présentation
 
 ![speaker](./assets/images/speakers/genez-t.png)
-![badge](./assets/images/speakers/gde.png)
+![badge first-badge](./assets/images/speakers/badge_gcp_archi.png)
+![badge second-badge](./assets/images/speakers/badge_gcp_dev.png)
 ![company](./assets/images/logo-sfeir-blanc.png)
 
 ## Théo Genez
