@@ -35,9 +35,9 @@ Mettre en place des projets sans coût et sans gestion d'infrastructure
 
 Exemples d'utilisations :
 
-* Une application de jeux pour gérer les scores.
-* Une application de médias sociaux authentification et envoie de notification.
-* Une application de commerce électronique stockage des produits et des commandes.
+* Une application de jeux pour gérer les scores
+* Une application de médias sociaux authentification et envoie de notification
+* Une application de commerce électronique stockage des produits et des commandes
 <!-- .element: class="list-fragment" -->
 
 Notes:

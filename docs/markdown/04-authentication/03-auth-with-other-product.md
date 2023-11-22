@@ -18,7 +18,7 @@ Plusieurs manières d'utiliser l'authentification:
 
 * **Public** : ignorer request.auth
 * **Privé authentifié** : vérifier que request.auth n'est pas null
-* **Utilisateur privé** : vérifier que request.auth.uid est égal à un uid de chemin
+* **Utilisateur privé** : vérifier que request.auth.uid est égal à un uid de chemin.
 <!-- .element: class="list-fragment" -->
 
 Notes:

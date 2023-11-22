@@ -1,10 +1,10 @@
 # Stockage: Fonctionnalités
 
-* Stockage de fichiers comme des images, des vidéos, etc.
-* Partage de fichiers avec d'autres utilisateurs ou groupes.
-* Contrôle d'accès basé sur des règles pour protéger vos fichiers.
-* Reporting et analyse des données de stockage.
-* Gestion par la console
+* Stockage de fichiers comme des images, des vidéos, etc
+* Partage de fichiers avec d'autres utilisateurs ou groupes
+* Contrôle d'accès basé sur des règles pour protéger vos fichiers
+* Reporting et analyse des données de stockage
+* Gestion par la console.
 <!-- .element: class="list-fragment" -->
 
 [documentation stocakge](https://firebase.google.com/docs/storage?hl=en)
@@ -30,7 +30,7 @@ montrer comment faire sur le projet crée
 
 # Stockage: règle de securité
 
-* Elles permettent de contrôler qui peut accéder à vos fichiers.
+* Elles permettent de contrôler qui peut accéder à vos fichiers
 * Elles sont écrites en langage JavaScript 
 * Elles sont appliquées à chaque requête d'accès à un fichier.
 <!-- .element: class="list-fragment" -->

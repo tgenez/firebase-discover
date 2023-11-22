@@ -5,7 +5,7 @@ Cloud Functions est un service serverless qui vous permet d'exécuter du code.
 * Avertir les utilisateurs
 * Effectuer des traitements de données
 * Exécutez des tâches intensives dans le cloud plutôt que dans votre application
-* Intégrez des services et des API tiers
+* Intégrez des services et des API tiers.
 <!-- .element: class="list-fragment" -->
 
 [documentation functions](https://firebase.google.com/docs/functions)
